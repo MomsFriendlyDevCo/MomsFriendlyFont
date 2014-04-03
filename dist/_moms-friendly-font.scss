@@ -1,0 +1,63 @@
+//
+// Icon Font: moms-friendly-font
+//
+
+@font-face {
+  font-family: "moms-friendly-font";
+  src: font-url("moms-friendly-font.eot");
+  src: font-url("moms-friendly-font.eot?#iefix") format("embedded-opentype"),
+       font-url("moms-friendly-font.woff") format("woff"),
+       font-url("moms-friendly-font.ttf") format("truetype"),
+       font-url("moms-friendly-font.svg#moms-friendly-font") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "moms-friendly-font";
+    src: font-url("moms-friendly-font.svg#moms-friendly-font") format("svg");
+  }
+}
+
+[data-icon]:before { content: attr(data-icon); }
+
+[data-icon]:before,
+.mff-bars:before,
+.mff-building:before,
+.mff-bullets:before,
+.mff-cogs:before,
+.mff-eye:before,
+.mff-file:before,
+.mff-file-tick:before,
+.mff-map-pointer:before,
+.mff-people:before,
+.mff-schedule:before,
+.mff-seg-circle:before,
+.mff-spanner:before {
+  display: inline-block;
+  font-family: "moms-friendly-font";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+}
+
+.mff-bars:before { content: "\f100"; }
+.mff-building:before { content: "\f101"; }
+.mff-bullets:before { content: "\f102"; }
+.mff-cogs:before { content: "\f103"; }
+.mff-eye:before { content: "\f104"; }
+.mff-file:before { content: "\f105"; }
+.mff-file-tick:before { content: "\f106"; }
+.mff-map-pointer:before { content: "\f107"; }
+.mff-people:before { content: "\f108"; }
+.mff-schedule:before { content: "\f109"; }
+.mff-seg-circle:before { content: "\f10a"; }
+.mff-spanner:before { content: "\f10b"; }
