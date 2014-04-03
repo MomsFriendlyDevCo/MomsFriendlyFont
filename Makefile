@@ -10,6 +10,7 @@ install-woff:
 	cd sfnt2woff; \
 		make
 	sudo mv sfnt2woff/sfnt2woff /usr/local/bin/
+	rm -r sfnt2woff
 
 install-gem:
 	gem install fontcustom
