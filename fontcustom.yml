@@ -16,5 +16,6 @@ output:
   preview: .
 
 templates:
+ - css
  - scss
  - preview
