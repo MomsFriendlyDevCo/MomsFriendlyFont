@@ -1,3 +1,7 @@
+default:
+	fontcustom compile
+
+
 install: install-apt install-woff install-gem
 
 install-apt:
