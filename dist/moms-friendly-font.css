@@ -23,31 +23,18 @@
 [data-icon]:before { content: attr(data-icon); }
 
 [data-icon]:before,
-.mff-alert:before,
-.mff-bars:before,
-.mff-building:before,
-.mff-bulb:before,
-.mff-bullets:before,
-.mff-cogs:before,
-.mff-drip:before,
-.mff-eye:before,
-.mff-file:before,
-.mff-file-tick:before,
-.mff-files:before,
-.mff-fire:before,
-.mff-levels:before,
-.mff-lightning:before,
-.mff-map-pointer:before,
-.mff-move:before,
-.mff-people:before,
-.mff-recycle:before,
-.mff-schedule:before,
-.mff-seg-circle:before,
-.mff-snow:before,
-.mff-spanner:before,
-.mff-squares:before,
-.mff-sun:before,
-.mff-window:before {
+.mf-building:before,
+.mf-circle-segmented:before,
+.mf-cogs-2:before,
+.mf-drip:before,
+.mf-file-o-check:before,
+.mf-files-2-o:before,
+.mf-flame:before,
+.mf-levels:before,
+.mf-lightbulb-on-o:before,
+.mf-schedule:before,
+.mf-spanner:before,
+.mf-squares:before {
   display: inline-block;
   font-family: "moms-friendly-font";
   font-style: normal;
@@ -62,28 +49,15 @@
   font-smoothing: antialiased;
 }
 
-.mff-alert:before { content: "\f10c"; }
-.mff-bars:before { content: "\f100"; }
-.mff-building:before { content: "\f101"; }
-.mff-bulb:before { content: "\f10d"; }
-.mff-bullets:before { content: "\f102"; }
-.mff-cogs:before { content: "\f103"; }
-.mff-drip:before { content: "\f10e"; }
-.mff-eye:before { content: "\f104"; }
-.mff-file:before { content: "\f105"; }
-.mff-file-tick:before { content: "\f106"; }
-.mff-files:before { content: "\f10f"; }
-.mff-fire:before { content: "\f110"; }
-.mff-levels:before { content: "\f111"; }
-.mff-lightning:before { content: "\f112"; }
-.mff-map-pointer:before { content: "\f107"; }
-.mff-move:before { content: "\f113"; }
-.mff-people:before { content: "\f108"; }
-.mff-recycle:before { content: "\f114"; }
-.mff-schedule:before { content: "\f109"; }
-.mff-seg-circle:before { content: "\f10a"; }
-.mff-snow:before { content: "\f115"; }
-.mff-spanner:before { content: "\f10b"; }
-.mff-squares:before { content: "\f116"; }
-.mff-sun:before { content: "\f117"; }
-.mff-window:before { content: "\f118"; }
+.mf-building:before { content: "\f100"; }
+.mf-circle-segmented:before { content: "\f101"; }
+.mf-cogs-2:before { content: "\f102"; }
+.mf-drip:before { content: "\f103"; }
+.mf-file-o-check:before { content: "\f104"; }
+.mf-files-2-o:before { content: "\f105"; }
+.mf-flame:before { content: "\f106"; }
+.mf-levels:before { content: "\f107"; }
+.mf-lightbulb-on-o:before { content: "\f108"; }
+.mf-schedule:before { content: "\f109"; }
+.mf-spanner:before { content: "\f10a"; }
+.mf-squares:before { content: "\f10b"; }
