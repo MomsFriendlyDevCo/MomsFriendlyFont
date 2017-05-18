@@ -23,6 +23,7 @@
 [data-icon]:before { content: attr(data-icon); }
 
 [data-icon]:before,
+.mf-bobba-fett:before,
 .mf-building:before,
 .mf-circle-segmented:before,
 .mf-cogs-2:before,
@@ -49,6 +50,7 @@
   font-smoothing: antialiased;
 }
 
+.mf-bobba-fett:before { content: "\f10c"; }
 .mf-building:before { content: "\f100"; }
 .mf-circle-segmented:before { content: "\f101"; }
 .mf-cogs-2:before { content: "\f102"; }

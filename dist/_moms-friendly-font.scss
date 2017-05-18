@@ -23,6 +23,7 @@
 [data-icon]:before { content: attr(data-icon); }
 
 [data-icon]:before,
+.mf-bobba-fett:before,
 .mf-building:before,
 .mf-circle-segmented:before,
 .mf-cogs-2:before,
@@ -49,6 +50,7 @@
   font-smoothing: antialiased;
 }
 
+.mf-bobba-fett:before { content: "\f10c"; }
 .mf-building:before { content: "\f100"; }
 .mf-circle-segmented:before { content: "\f101"; }
 .mf-cogs-2:before { content: "\f102"; }
@@ -62,6 +64,7 @@
 .mf-spanner:before { content: "\f10a"; }
 .mf-squares:before { content: "\f10b"; }
 
+$font-moms-friendly-font-bobba-fett: "\f10c";
 $font-moms-friendly-font-building: "\f100";
 $font-moms-friendly-font-circle-segmented: "\f101";
 $font-moms-friendly-font-cogs-2: "\f102";
