@@ -5,7 +5,7 @@ default:
 install: install-apt install-woff install-gem
 
 install-apt:
-	sudo apt-get install -y fontforge ttfautohint ttfautohint ruby1.9.1-dev
+	sudo apt-get install -y fontforge ttfautohint ttfautohint ruby-dev zlib1g-dev
 
 install-woff:
 	wget http://people.mozilla.com/~jkew/woff/woff-code-latest.zip
