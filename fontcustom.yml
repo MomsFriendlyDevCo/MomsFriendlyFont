@@ -1,5 +1,5 @@
 font_name: moms-friendly-font
-css_selector: .mff-{{glyph}}
+css_selector: .mf-{{glyph}}
 preprocessor_path: ""
 autowidth: false
 no_hash: true
