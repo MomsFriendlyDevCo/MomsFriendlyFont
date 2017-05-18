@@ -1,0 +1,23 @@
+{
+  "name": "@momsfriendlydevco/momsfriendlyfont",
+  "version": "0.0.0",
+  "description": "A collection of miscellaneous SVG icons for various projects",
+  "main": "dist/moms-friendly-font.css",
+  "scripts": {
+    "build": "make"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MomsFriendlyDevCo/MomsFriendlyFont.git"
+  },
+  "keywords": [
+    "mfdc",
+    "font"
+  ],
+  "author": "Matt Carter <m@ttcarter.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MomsFriendlyDevCo/MomsFriendlyFont/issues"
+  },
+  "homepage": "https://github.com/MomsFriendlyDevCo/MomsFriendlyFont#readme"
+}
