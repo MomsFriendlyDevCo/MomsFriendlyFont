@@ -4,7 +4,7 @@
   "description": "A collection of miscellaneous SVG icons for various projects",
   "main": "dist/moms-friendly-font.css",
   "scripts": {
-    "build": "make"
+    "build": "gulp build"
   },
   "repository": {
     "type": "git",
@@ -19,5 +19,11 @@
   "bugs": {
     "url": "https://github.com/MomsFriendlyDevCo/MomsFriendlyFont/issues"
   },
-  "homepage": "https://github.com/MomsFriendlyDevCo/MomsFriendlyFont#readme"
+  "homepage": "https://github.com/MomsFriendlyDevCo/MomsFriendlyFont#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-fontcustom": "^0.1.2",
+    "gulp-replace": "^0.5.4",
+    "run-sequence": "^1.2.2"
+  }
 }
