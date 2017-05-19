@@ -4,11 +4,11 @@
 
 @font-face {
   font-family: "moms-friendly-font";
-  src: url("./moms-friendly-font.eot");
-  src: url("./moms-friendly-font.eot?#iefix") format("embedded-opentype"),
-       url("./moms-friendly-font.woff") format("woff"),
-       url("./moms-friendly-font.ttf") format("truetype"),
-       url("./moms-friendly-font.svg#moms-friendly-font") format("svg");
+  src: url("/fonts/moms-friendly-font.eot");
+  src: url("/fonts/moms-friendly-font.eot?#iefix") format("embedded-opentype"),
+       url("/fonts/moms-friendly-font.woff") format("woff"),
+       url("/fonts/moms-friendly-font.ttf") format("truetype"),
+       url("/fonts/moms-friendly-font.svg#moms-friendly-font") format("svg");
   font-weight: normal;
   font-style: normal;
 }
@@ -16,7 +16,7 @@
 @media screen and (-webkit-min-device-pixel-ratio:0) {
   @font-face {
     font-family: "moms-friendly-font";
-    src: url("./moms-friendly-font.svg#moms-friendly-font") format("svg");
+    src: url("/fonts/moms-friendly-font.svg#moms-friendly-font") format("svg");
   }
 }
 
