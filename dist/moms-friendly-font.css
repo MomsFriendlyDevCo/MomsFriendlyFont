@@ -28,6 +28,7 @@
 .mf-circle-segmented:before,
 .mf-cogs-2:before,
 .mf-drip:before,
+.mf-face-palm:before,
 .mf-file-o-check:before,
 .mf-files-2-o:before,
 .mf-flame:before,
@@ -55,6 +56,7 @@
 .mf-circle-segmented:before { content: "\f101"; }
 .mf-cogs-2:before { content: "\f102"; }
 .mf-drip:before { content: "\f103"; }
+.mf-face-palm:before { content: "\f10d"; }
 .mf-file-o-check:before { content: "\f104"; }
 .mf-files-2-o:before { content: "\f105"; }
 .mf-flame:before { content: "\f106"; }
