@@ -7,7 +7,37 @@ See the [preview file](http://htmlpreview.github.io/?https://github.com/MomsFrie
 
 Installation
 ============
-1. Install with bower - `bower install MomsFriendlyFont`
-2. Just include the magical CSS file in the normal way.
+1. Install with npm or bower:
 
-	<link href="http://local/bower_components/MomsFriendlyFont/dist/moms-friendly-font.css" rel="stylesheet" type="text/css" />
+```shell
+npm i @momsfriendlydevco/momsfriendlyfont
+
+OR
+
+bower install MomsFriendlyFont
+```
+
+
+2. Include the magical CSS file in your header:
+
+	<link href="/libs/MomsFriendlyFont/dist/moms-friendly-font.css" rel="stylesheet" type="text/css" />
+
+
+3. Use the icon in an `<i/>` tag (all icons are prefixed with `mf-`):
+
+	<i class="mf-bobba-fett"></i>
+
+
+Adding Icons
+============
+1. Copy the credit to the icon and place it (with a direct link) in the README.md file
+2. Drop the SVG file into `svg/`
+3. Run `gulp build`
+4. Run `gulp gh-pages`
+
+
+Credits
+=======
+* [Spider Web by Franc from the Noun Project](https://thenounproject.com/term/spider-web/742346/)
+* [Bobba Fett by Gustavo Ribeiro Vieira from the Noun Project](https://thenounproject.com/term/boba-fett/102981/)
+* [Facepalm by Edward Boatman from the Noun Project](https://thenounproject.com/search/?q=face%20palm&i=18486)
