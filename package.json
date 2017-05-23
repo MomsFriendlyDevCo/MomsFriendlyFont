@@ -23,7 +23,10 @@
   "devDependencies": {
     "gulp": "^3.9.1",
     "gulp-fontcustom": "^0.1.2",
+    "gulp-gh-pages": "^0.5.4",
+    "gulp-rename": "^1.2.2",
     "gulp-replace": "^0.5.4",
+    "rimraf": "^2.6.1",
     "run-sequence": "^1.2.2"
   }
 }
