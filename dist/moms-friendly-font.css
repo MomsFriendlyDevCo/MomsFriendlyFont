@@ -36,6 +36,7 @@
 .mf-lightbulb-on-o:before,
 .mf-schedule:before,
 .mf-spanner:before,
+.mf-spider-web:before,
 .mf-squares:before {
   display: inline-block;
   font-family: "moms-friendly-font";
@@ -64,4 +65,5 @@
 .mf-lightbulb-on-o:before { content: "\f108"; }
 .mf-schedule:before { content: "\f109"; }
 .mf-spanner:before { content: "\f10a"; }
+.mf-spider-web:before { content: "\f10e"; }
 .mf-squares:before { content: "\f10b"; }
