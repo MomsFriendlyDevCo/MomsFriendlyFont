@@ -1,6 +1,6 @@
 {
   "name": "@momsfriendlydevco/momsfriendlyfont",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "A collection of miscellaneous SVG icons for various projects",
   "main": "dist/moms-friendly-font.css",
   "scripts": {

@@ -2,7 +2,7 @@ Moms Friendly Font
 ==================
 A collection of various SVG based icons that arn't already part of the [FontAwesome](http://fortawesome.github.io/Font-Awesome/) project.
 
-See the [preview file](http://htmlpreview.github.io/?https://github.com/MomsFriendlyDevCo/MomsFriendlyFont/blob/master/moms-friendly-font-preview.html) for available assets.
+[List of provided icons](https://momsfriendlydevco.github.io/MomsFriendlyFont/)
 
 
 Installation
@@ -20,12 +20,16 @@ bower install MomsFriendlyFont
 
 2. Include the magical CSS file in your header:
 
-	<link href="/libs/MomsFriendlyFont/dist/moms-friendly-font.css" rel="stylesheet" type="text/css" />
+```html
+<link href="/libs/MomsFriendlyFont/dist/moms-friendly-font.css" rel="stylesheet" type="text/css" />
+```
 
 
 3. Use the icon in an `<i/>` tag (all icons are prefixed with `mf-`):
 
-	<i class="mf-bobba-fett"></i>
+```html
+<i class="mf-bobba-fett"></i>
+```
 
 
 Adding Icons

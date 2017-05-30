@@ -45,6 +45,6 @@ gulp.task('gh-pages', ['build'], function() {
 		}))
 		.pipe(ghPages({
 			cacheDir: 'gh-pages',
-			push: false, // Change to false for dryrun (files dumped to cacheDir)
+			push: true, // Change to false for dryrun (files dumped to cacheDir)
 		}))
 });
