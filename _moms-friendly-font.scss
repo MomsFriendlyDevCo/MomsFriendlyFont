@@ -27,6 +27,7 @@
 .mf-building:before,
 .mf-circle-segmented:before,
 .mf-cogs-2:before,
+.mf-construction-worker:before,
 .mf-drip:before,
 .mf-face-palm:before,
 .mf-file-o-check:before,
@@ -37,7 +38,8 @@
 .mf-schedule:before,
 .mf-spanner:before,
 .mf-spider-web:before,
-.mf-squares:before {
+.mf-squares:before,
+.mf-submarine:before {
   display: inline-block;
   font-family: "moms-friendly-font";
   font-style: normal;
@@ -56,6 +58,7 @@
 .mf-building:before { content: "\f100"; }
 .mf-circle-segmented:before { content: "\f101"; }
 .mf-cogs-2:before { content: "\f102"; }
+.mf-construction-worker:before { content: "\f10f"; }
 .mf-drip:before { content: "\f103"; }
 .mf-face-palm:before { content: "\f10d"; }
 .mf-file-o-check:before { content: "\f104"; }
@@ -67,11 +70,13 @@
 .mf-spanner:before { content: "\f10a"; }
 .mf-spider-web:before { content: "\f10e"; }
 .mf-squares:before { content: "\f10b"; }
+.mf-submarine:before { content: "\f110"; }
 
 $font-moms-friendly-font-bobba-fett: "\f10c";
 $font-moms-friendly-font-building: "\f100";
 $font-moms-friendly-font-circle-segmented: "\f101";
 $font-moms-friendly-font-cogs-2: "\f102";
+$font-moms-friendly-font-construction-worker: "\f10f";
 $font-moms-friendly-font-drip: "\f103";
 $font-moms-friendly-font-face-palm: "\f10d";
 $font-moms-friendly-font-file-o-check: "\f104";
@@ -83,3 +88,4 @@ $font-moms-friendly-font-schedule: "\f109";
 $font-moms-friendly-font-spanner: "\f10a";
 $font-moms-friendly-font-spider-web: "\f10e";
 $font-moms-friendly-font-squares: "\f10b";
+$font-moms-friendly-font-submarine: "\f110";

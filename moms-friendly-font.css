@@ -27,6 +27,7 @@
 .mf-building:before,
 .mf-circle-segmented:before,
 .mf-cogs-2:before,
+.mf-construction-worker:before,
 .mf-drip:before,
 .mf-face-palm:before,
 .mf-file-o-check:before,
@@ -37,7 +38,8 @@
 .mf-schedule:before,
 .mf-spanner:before,
 .mf-spider-web:before,
-.mf-squares:before {
+.mf-squares:before,
+.mf-submarine:before {
   display: inline-block;
   font-family: "moms-friendly-font";
   font-style: normal;
@@ -56,6 +58,7 @@
 .mf-building:before { content: "\f100"; }
 .mf-circle-segmented:before { content: "\f101"; }
 .mf-cogs-2:before { content: "\f102"; }
+.mf-construction-worker:before { content: "\f10f"; }
 .mf-drip:before { content: "\f103"; }
 .mf-face-palm:before { content: "\f10d"; }
 .mf-file-o-check:before { content: "\f104"; }
@@ -67,3 +70,4 @@
 .mf-spanner:before { content: "\f10a"; }
 .mf-spider-web:before { content: "\f10e"; }
 .mf-squares:before { content: "\f10b"; }
+.mf-submarine:before { content: "\f110"; }
