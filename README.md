@@ -41,3 +41,5 @@ Credits
 * [Spider Web by Franc from the Noun Project](https://thenounproject.com/term/spider-web/742346/)
 * [Bobba Fett by Gustavo Ribeiro Vieira from the Noun Project](https://thenounproject.com/term/boba-fett/102981/)
 * [Facepalm by Edward Boatman from the Noun Project](https://thenounproject.com/search/?q=face%20palm&i=18486)
+* [Worker by alrigel](https://thenounproject.com/term/worker/995066)
+* [Submarine by sagit milshtein](https://thenounproject.com/term/submarine/67219)
